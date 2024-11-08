@@ -342,7 +342,7 @@ export default {
           this.fetchData();
           this.$notify({
             title: this.$t('message.success'),
-            message: this.$t('message.createdSuccess'),
+            message: this.$t('message.deleteSuccess'),
             type: 'success',
             duration: 2000,
           });
